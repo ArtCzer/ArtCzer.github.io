@@ -17,6 +17,10 @@ body {
     font-size: 2vw;
     font-weight: lighter;
   }
+  h3 {
+    font-size: 1.6vw;
+    font-weight: lighter;
+  }
 
   .toolbarwrapper ul {
     list-style-type: none;
@@ -38,12 +42,11 @@ body {
   }
   
   .toolbarwrapper li a:hover {
-    background-color: #111;
+    background-color: #BADA55;
   }
 
   .toolbarwrapper .active {
-    background-color: #BADA55;
-    color: #111;
+    background-color: #111;
   }
 
   .bannerwrapper {
@@ -80,7 +83,7 @@ body {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font: 1.0vw Helvetica, Arial, sans-serif;
+    font: 1.2vw Helvetica, Arial, sans-serif;
   }
 
   .profilepic {
@@ -95,7 +98,11 @@ body {
         background-position: center;
         float: left;
         position: relative;
-    }        
+    }    
+    
+  .fb-share-button {
+    float: right;
+  }
 
   @media (min-width: 1000px) {
     .columnwrapper {
