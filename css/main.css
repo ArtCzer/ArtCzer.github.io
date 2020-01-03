@@ -42,20 +42,22 @@ body {
   }
 
   .toolbarwrapper .active {
-    background-color: #4CAF50;
+    background-color: #BADA55;
+    color: #111;
   }
 
   .bannerwrapper {
-      max-width: 1280px;
+      max-width: 960px;
       display: grid;
-      grid-template-columns: 240px 1fr;
+      grid-template-columns: 200px auto;
       column-gap: 2%;
-      margin: 2em auto;
+      margin: 2em auto -1em;
+
       text-align: center;
   }
 
   .columnwrapper {
-    max-width: 1280px;
+    max-width: 960px;
     padding: 20px;
     margin: 2em auto;
   }
@@ -64,7 +66,7 @@ body {
     padding-top: 2em;
     text-align: center;  
     background-color: #fff;
-    min-width: 420px;
+    min-width: 320px;
   }
 
   .col ul {
@@ -95,10 +97,10 @@ body {
         position: relative;
     }        
 
-  @media screen and (min-width: 1400px) {
+  @media (min-width: 1000px) {
     .columnwrapper {
       display: grid;
-      grid-template-columns: 1fr 2fr 3fr;
+      grid-template-columns: auto auto auto;
       column-gap: 2%;
     }
   }
