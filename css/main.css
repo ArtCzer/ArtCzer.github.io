@@ -1,28 +1,37 @@
 body {
-    font: 1.2vw Helvetica, Arial, sans-serif;
+    font: 1.2em Helvetica, Arial, sans-serif;
     margin: 10px;
     padding: 0;
-    background-color: #eee;
+    background-color: #333;
+    color: white;
   }
 
   h1 {
     text-transform: uppercase;
     color: #bada55;
-    font-size: 3vw;
+    font-size: 2.4rem;
     font-weight: lighter;
   }
   
   h2 {
     color: #bada55;
-    font-size: 2vw;
+    font-size: 1.8rem;
     font-weight: lighter;
   }
   h3 {
-    font-size: 1.6vw;
-    font-weight: lighter;
+    font-size: 1.4rem;
+  }
+  a {
+    font-size: 1.0rem;
+    color: white;
+  }
+  a:visited {
+    color: lightgrey;
   }
 
   .toolbarwrapper ul {
+    position:fixed;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,6 +58,10 @@ body {
     background-color: #111;
   }
 
+  .mainwrapper {
+    margin-top: 60px;
+  }
+
   .bannerwrapper {
       max-width: 960px;
       display: grid;
@@ -68,7 +81,7 @@ body {
   .col {
     padding-top: 2em;
     text-align: center;  
-    background-color: #fff;
+    background-color: #575757;
     min-width: 320px;
   }
 
@@ -83,10 +96,10 @@ body {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font: 1.2vw Helvetica, Arial, sans-serif;
   }
 
   .profilepic {
+        z-index: -1;
         float: left;
         display: block;
         background-image: url("../img/profile.jpg");
@@ -100,9 +113,11 @@ body {
         position: relative;
     }    
     
-  .fb-share-button {
-    float: right;
-  }
+  .fb-wrapper {
+    position: fixed;
+    top: 10px;
+    left: 90%;
+  } 
 
   @media (min-width: 1000px) {
     .columnwrapper {
