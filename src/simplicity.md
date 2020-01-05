@@ -2,7 +2,9 @@
 ## Refreshing
 Last week I spend the Christmas holidays with my family, fishing and surfing in the Northern Rivers region on the east coast of Australia. 
 
-In our work, and to a lesser extent outside of work, it's increasingly normal to be beholden to a rigid timetable of goals, meetings, and tasks. Spending a week without any due dates or timetable was refreshing, and made me appreciate the simplicity of unplanned time. 
+In our work, and to a lesser extent outside of work, it's increasingly normal to be beholden to a rigid timetable of goals, meetings, tasks and trello boards. 
+
+Spending a week without any due dates or timetable was refreshing, and made me appreciate the simplicity of unplanned time. 
 I kept busy - going to the beach at least once day day, fishing, shopping and cooking, but without the pressure of a strict timeline. 
 
 In software engineering, this kind of unplanned (but productive) time can be just as refreshing, and can be uniquely productive. 
