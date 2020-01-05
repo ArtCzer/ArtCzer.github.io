@@ -72,6 +72,20 @@ body {
       text-align: center;
   }
 
+  .blogwrapper {
+    max-width: 960px;
+    padding: 20px;
+    margin: 2em auto;
+  }
+
+  .blog {
+    padding: 1em;
+    margin-top: 1em;
+    text-align: left;  
+    background-color: #575757;
+    min-width: 960px;
+  }
+
   .columnwrapper {
     max-width: 960px;
     padding: 20px;
