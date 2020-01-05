@@ -12,7 +12,7 @@ We're going to start off using plain HTTP to simplify configuration and end to e
 **Information: Android enforces strict transport security rules regarding HTTP transport - by default, applications must use HTTPS, and the HTTPS connection must use a valid server certificate. This is fine in production, but makes it difficult to debug locally. To get around this, we have three options: 
 * We can allow HTTP (plain text transport) 
 * We can allow untrusted certificates
-* We can make our API publically accessible and use a valid SSL certificate (e.g. https://letsencrypt.org)
+* We can make our API publically accessible and use a valid SSL certificate (e.g. using https://letsencrypt.org)
 
 All three options have some security issues, so we wil go with the easiest and arguably most secure - enabling plain text transport in debug mode.
 
@@ -41,4 +41,8 @@ Now we will change the solution configuration to start up both the Android and A
 3. Ensure the Android project is set to 'Deploy' as well.
 
 (Add screenshot from project properties)
+
+You should now be ready to debug the Android application with API support.
+
+
 
